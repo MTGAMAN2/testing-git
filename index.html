@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fishing Tool Shop</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #e0f7fa; }
+        header { background: #0277bd; color: #fff; padding: 20px 0; text-align: center; }
+        nav { background: #01579b; padding: 10px 0; text-align: center; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1000px; margin: 30px auto; background: #fff; padding: 30px; border-radius: 8px; }
+        .products { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .product { background: #f1f8e9; border: 1px solid #bdbdbd; border-radius: 6px; width: 220px; padding: 15px; text-align: center; }
+        .product img { width: 100%; height: 120px; object-fit: cover; border-radius: 4px; }
+        .product h3 { margin: 10px 0 5px; }
+        .product p { margin: 5px 0; }
+        .product button { background: #0288d1; color: #fff; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+        .product button:hover { background: #01579b; }
+        footer { background: #0277bd; color: #fff; text-align: center; padding: 15px 0; margin-top: 40px; }
+    </style>
 </head>
 <body>
-    <h1>Ini perubahan dari orang pertama</h1>
+    <header>
+        <h1>Fishing Tool Shop</h1>
+        <p>Your one-stop shop for all fishing gear!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Featured Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Fishing Rod">
+                <h3>Carbon Fiber Fishing Rod</h3>
+                <p>Lightweight, durable, and perfect for all anglers.</p>
+                <p><strong>$49.99</strong></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Fishing Reel">
+                <h3>Spinning Reel</h3>
+                <p>Smooth action and high performance for every trip.</p>
+                <p><strong>$39.99</strong></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Fishing Lures">
+                <h3>Assorted Fishing Lures</h3>
+                <p>Colorful and effective for freshwater and saltwater.</p>
+                <p><strong>$14.99</strong></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="Tackle Box">
+                <h3>Tackle Box</h3>
+                <p>Organize all your fishing gear with ease.</p>
+                <p><strong>$24.99</strong></p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Fishing Tool Shop. All rights reserved.
+    </footer>
 </body>
-</html>
